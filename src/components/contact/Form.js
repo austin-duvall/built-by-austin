@@ -2,12 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useFormik } from 'formik'
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 
-const publicKey = 'I2ixiwRawqi6sUf9a'
-const serviceId = 'service_c9tb8rk'
-const templateId = 'template_3xuofb2'
+const publicKey = process.env.REACT_APP_PUBLIC_KEY
+const serviceId = process.env.REACT_APP_SERVICE_ID
+const templateId = process.env.REACT_APP_TEMPLATE_ID
 
 
 export default function Form() {
@@ -136,12 +135,6 @@ export default function Form() {
             className={`fieldText textArea ${msgError ? 'touched' : 'notTouched'}`}
             maxLength={2001}
             aria-label='message'
-          />
-        </div>
-        <div className='recaptcha'>
-          <ReCAPTCHA
-            sitekey={process.env.REACT_APP_RECAPTCHA_KEY}
-            render="explicit"
           />
         </div>
         <div className='buttonContainer'>

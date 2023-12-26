@@ -101,11 +101,12 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  background-color: rgba(241, 156, 56, 0.2);
+  background-color: rgba(241, 156, 56);
   width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 45px;
 }
 
 .footerContainer p {
