@@ -6,8 +6,8 @@ import dmcVid from '../../../assets/dmc/dmcMp4.mp4';
 export default function DMCMedia() {
   return (
     <section className='dmcMedia'>
-      <img id='dmcDT' src={dmcDT} alt='desktop view of DMC website' />
-      <img id='dmcTab' src={dmcTab} alt='tablet view of DMC website' />
+      <img id='dmcDT' src={dmcDT} loading='lazy' alt='desktop view of DMC website' />
+      <img id='dmcTab' src={dmcTab} loading='lazy' alt='tablet view of DMC website' />
       <video autoPlay loop muted playsInline disablePictureInPicture>
         <source src={dmcVid} type='video/mp4' />
         Your browser does not support video
