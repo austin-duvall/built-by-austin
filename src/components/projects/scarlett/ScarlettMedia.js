@@ -8,7 +8,7 @@ export default function ScarlettMedia() {
     <section className='scarlettMedia'>
       <img id='scarlettDT' loading='lazy' src={scarlettDT} alt='desktop view of Scarlett restaurant website' />
       <img id='scarlettTab' loading='lazy' src={scarlettTab} alt='tablet view of Scarlett restaurant website' />
-      <video autoPlay loop muted playsInline disablePictureInPicture>
+      <video poster='https://i.ibb.co/5kMpdF4/portfolio-loading-poster.png' autoPlay loop muted playsInline disablePictureInPicture>
         <source src={scarlettVid} type='video/mp4' />
         Your browser does not support video
       </video>
