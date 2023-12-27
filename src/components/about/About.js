@@ -3,6 +3,7 @@ import avatar from '../../assets/icon.png';
 import gh from '../../assets/about/gh.png';
 import linkedin from '../../assets/about/linkedin.png';
 import email from '../../assets/about/email.png';
+import resume from '../../assets/about/resume.png';
 import Social from './Social';
 
 export default function About() {
@@ -19,6 +20,7 @@ export default function About() {
         <Social id='li' img={linkedin} path='www.linkedin.com/in/austin-duvall-a63a771b4' alt='LinkedIn icon' role='listitem' />
         <Social id='gh' img={gh} path='https://github.com/austin-duvall' alt='GitHub icon' role='listitem' />
         <Social id='emailLink' img={email} path='/contact' alt='Email icon' role='listitem' />
+        <Social id='resume' img={resume} path='https://github.com/austin-duvall/austin-duvall/blob/main/Resume.pdf' alt='Resume icon' role='listitem' />
       </article>
     </div>
   )
