@@ -1,12 +1,11 @@
 import React from 'react';
-import dmcLogo from '../../../assets/dmc/dmc - blue condensed.png';
 import DMCMedia from './DMCMedia';
 import ViewCode from '../ViewCode';
 
 export default function DMC() {
   return (
     <div className='dmc'>
-      <img id='dmcLogo' src={dmcLogo} alt='Disability Management and Consulting logo'/>
+      <img id='dmcLogo' src='https://i.ibb.co/8c9VBVb/dmc-blue-condensed.png' alt='Disability Management and Consulting logo'/>
       <DMCMedia />
       <article>
         <h2>React-based application built as a pitch for Disability Management and Consulting, a firm out of Spokane, WA.</h2>

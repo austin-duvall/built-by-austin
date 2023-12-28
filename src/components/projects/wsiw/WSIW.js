@@ -1,5 +1,4 @@
 import React from 'react';
-import wsiwLogo from '../../../assets/wsiw/wsiwLogo.png';
 import WSIWMedia from './WSIWMedia';
 import ViewCode from '../ViewCode';
 
@@ -7,7 +6,7 @@ import ViewCode from '../ViewCode';
 export default function WSIW() {
   return (
     <div className='wsiw'>
-      <img id='wsiwLogo' src={wsiwLogo} alt='What Should I Wear logo' />
+      <img id='wsiwLogo' src='https://i.ibb.co/FY0yvMm/wsiwLogo.png' alt='What Should I Wear logo' />
       <WSIWMedia />
       <article>
         <h2>React-based mobile application to determine what to wear based on weather.</h2>

@@ -1,5 +1,4 @@
 import React from 'react';
-import scarlettLogo from '../../../assets/scarlett/scarlett - main logo.png';
 import ScarlettMedia from './ScarlettMedia';
 import ViewCode from '../ViewCode';
 
@@ -7,7 +6,7 @@ import ViewCode from '../ViewCode';
 export default function Scarlett() {
   return (
     <div className='scarlett'>
-      <img id='scarlettLogo' src={scarlettLogo} alt='Scarlett restaurant logo' />
+      <img id='scarlettLogo' src='https://i.ibb.co/NW3NvWF/scarlett-main-logo.png' alt='Scarlett restaurant logo' />
       <ScarlettMedia />
       <article>
         <h2>React-based single-page application designed for a fictional fine-dining restaurant located in Seattle, WA.</h2>
