@@ -1,0 +1,5 @@
+      <img id='scarlettTab' loading='lazy' src='https://i.ibb.co/jk5RcjB/scarlett-tablet-36.png' alt='tablet view of Scarlett restaurant website' />
+      <video poster='https://i.ibb.co/5kMpdF4/portfolio-loading-poster.png' autoPlay loop muted playsInline disablePictureInPicture>
+        <source src={scarlettVid} type='video/mp4' />
+        Your browser does not support video
+      </video>
