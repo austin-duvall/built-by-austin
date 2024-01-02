@@ -1,6 +1,5 @@
 import React from 'react';
-import scarlettVid from '../../../assets/scarlett/scarlettMp4.mp4';
-import scarlettScreens from '../../../assets/scarlett/scarlettScreens.png';
+import scarlettScreens from '../../../assets/scarlett/scarlettScreensSmall.png';
 
 export default function ScarlettMedia() {
   return (

@@ -277,8 +277,8 @@
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom : 50px;
-  color: rgba(0, 0, 0, 0.5);
-  height: 5px;
+  color: rgba(0, 0, 0, 0.2);
+  height: 2px;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
 }
@@ -298,14 +298,14 @@
 }
 
 #scarlettLogo {
-  width: 300px;
+  width: 50%;
 }
 
 .scarlettMedia {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .scarlettMedia img {
@@ -351,7 +351,7 @@
   width: 100%;
   height: 100%;
   margin-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -361,45 +361,18 @@
 }
 
 #dmcLogo {
-  width: 300px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  width: 50%;
 }
 
 .dmcMedia {
-  position: relative;
-  width: 400px;
-  height: 600px;
-  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-#dmcDT {
-  height: 350px;
-  position: absolute;
-  top: 10%;
-  left: -60%;
-  transform: translate(60%, -10%);
-}
-
-#dmcTab {
-  position: absolute;
-  height: 300px;
-  top: 60%;
-  left: 10%;
-  transform: translate(-10%, -60%);
-}
-
-.dmc video {
-  height: 300px;
-  position: absolute;
-  top: 95%;
-  left: 75%;
-  transform: translate(-75%, -95%);
-  border: 10px solid black;
-  border-bottom: 15px solid black;
-  border-radius: 10px;
+.dmcMedia img {
+  width: 90%;
+  margin-top: 10%;
 }
 
 .dmc article {
@@ -557,7 +530,7 @@
 
 .viewCode p {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
   border-bottom: 2px solid rgb(134, 134, 134);
   color: rgb(0, 0, 0);
@@ -757,7 +730,7 @@
   }
 
   .dmcMedia {
-    margin-top: 200px;
+    margin-top: 0px;
   }
 
   .wsiwMedia {
