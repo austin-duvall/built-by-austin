@@ -837,3 +837,14 @@
     margin-bottom: 700px;
   }
 }
+
+@media screen and (min-width: 3000px) {
+  .content {
+    margin-top: 300px;
+    margin-bottom: 800px;
+  }
+
+  .dmc {
+    margin-top: 5%;
+  }
+}
