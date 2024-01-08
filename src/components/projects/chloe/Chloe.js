@@ -13,7 +13,7 @@ export default function Chloe() {
           <li>Merch image carousel and streaming link dropdown using jQuery.</li>
         </ul>
         <h4>Status: In Progress - Styling</h4>
-        <ViewCode url='austin-duvall/dmc' />
+        <ViewCode url='austin-duvall/chloe' />
       </article>
     </div>
   )
