@@ -284,11 +284,9 @@
 }
 /*--------------------------------------------------*/
 
-.scarlett {
+.scarlett, .dmc, .chloe {
   width: 100%;
   height: 100%;
-  margin-top: 200px;
-  margin-bottom: 50px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -297,71 +295,67 @@
   position: relative;
 }
 
-#scarlettLogo {
+.scarlett {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+#scarlettLogo, #dmcLogo, #chloeLogo {
   width: 50%;
 }
 
-.scarlettMedia {
+.scarlettMedia, .dmcMedia {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.scarlettMedia {
   margin-top: 10%;
 }
 
-.scarlettMedia img {
+.scarlettMedia img, .dmcMedia img {
   width: 90%;
 }
 
-.scarlett article {
+.scarlett article, .dmc article, .chloe article {
   padding: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.scarlett article h2 {
+.scarlett article h2, .dmc article h2, .chloe article h2 {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
 }
 
-.scarlett article h3 {
+.scarlett article h3, .dmc article h3, .chloe article h3 {
   margin-top: 10%;
   font-weight: 300;
 }
 
-.scarlett article h4 {
+.scarlett article h4, .dmc article h4, .chloe article h4 {
   text-align: center;
   margin-top: 5%;
 }
 
-.scarlett article ul {
+.scarlett article ul, .dmc article ul, .chloe article ul {
   padding-left: 5%;
   list-style-type: circle;
   margin-bottom: 10%;
 }
 
-.scarlett article li {
+.scarlett article li, .dmc article li, .chloe article li {
   font-weight: 300;
 }
 
 /*--------------------------------------------------*/
 
 .dmc {
-  width: 100%;
-  height: 100%;
   margin-top: 25px;
   margin-bottom: 100px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-#dmcLogo {
-  width: 50%;
 }
 
 .dmcMedia {
@@ -371,139 +365,17 @@
 }
 
 .dmcMedia img {
-  width: 90%;
   margin-top: 10%;
 }
 
-.dmc article {
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.dmc article h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-align: center;
-}
-
-.dmc article h3 {
-  margin-top: 10%;
-  font-weight: 300;
-}
-
-.dmc article h4 {
-  text-align: center;
-  margin-top: 5%;
-}
-
-.dmc article ul {
-  padding-left: 5%;
-  list-style-type: circle;
-  margin-bottom: 10%;
-}
-
-.dmc article li {
-  font-weight: 300;
-}
 
 /*--------------------------------------------------*/
 
-.wsiw {
-  width: 100%;
-  height: 100%;
-  margin-top: 0px;
-  margin-bottom: 150px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+
+.chloe article {
+  margin-bottom: 15%;
 }
 
-#wsiwLogo {
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
-.wsiwMedia {
-  position: relative;
-  width: 400px;
-  height: 600px;
-  margin-top: 200px;
-}
-
-#wsiwLanding {
-  height: 350px;
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  transform: translate(-5%, -10%);
-  border: 10px solid black;
-  border-bottom: 15px solid black;
-  border-radius: 10px;
-}
-
-#wsiwResults {
-  position: absolute;
-  height: 350px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 10px solid black;
-  border-bottom: 15px solid black;
-  border-radius: 10px;
-}
-
-.wsiw video {
-  height: 350px;
-  position: absolute;
-  top: 90%;
-  left: 95%;
-  transform: translate(-95%, -90%);
-  border: 10px solid black;
-  border-bottom: 15px solid black;
-  border-radius: 10px;
-}
-
-.wsiw article {
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.wsiw article h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
-}
-
-.wsiw article h3 {
-  margin-top: 10%;
-  font-weight: 300;
-}
-
-.wsiw article h4 {
-  text-align: center;
-  margin-top: 5%;
-}
-
-.wsiw article ul {
-  padding-left: 5%;
-  list-style-type: circle;
-  margin-bottom: 10%;
-}
-
-.wsiw article li {
-  font-weight: 300;
-}
 
 /*--------------------------------------------------*/
 
@@ -733,70 +605,24 @@
     margin-top: 0px;
   }
 
-  .wsiwMedia {
-    margin-top: 200px;
-  }
-
-  .scarlett article {
+  .scarlett article, .dmc article, .chloe article {
     width: 50vw;
   }
 
-  .dmc article {
-    width: 50vw;
-  }
-
-  .wsiw article {
-    width: 50vw;
-  }
-
-  .scarlett article h2 {
+  .scarlett article h2, .dmc article h2, .chloe article h2 {
     font-size: 2.5rem;
     text-align: center;
   }
 
-  .scarlett article h3 {
+  .scarlett article h3, .dmc article h3, .chloe article h3 {
     font-size: 2rem;
   }
 
-  .scarlett article h4 {
+  .scarlett article h4, .dmc article h4, .chloe article h4 {
     font-size: 2rem;
   }
 
-  .scarlett article li {
-    font-size: 1.5rem;
-  }
-
-  .dmc article h2 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .dmc article h3 {
-    font-size: 2rem;
-  }
-
-  .dmc article h4 {
-    font-size: 2rem;
-  }
-
-  .dmc article li {
-    font-size: 1.5rem;
-  }
-
-  .wsiw article h2 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .wsiw article h3 {
-    font-size: 2rem;
-  }
-
-  .wsiw article h4 {
-    font-size: 2rem;
-  }
-
-  .wsiw article li {
+  .scarlett article li, .dmc article li, .chloe article li {
     font-size: 1.5rem;
   }
 
