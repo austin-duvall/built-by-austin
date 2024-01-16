@@ -15,7 +15,7 @@ export default function DMC() {
           <li>Easy editing of employees and locations via components.</li>
           <li>Four-button "Why?" section with horizontal scrolling.</li>
         </ul>
-        <h4>Status: In Progress - SEO</h4>
+        <h4>Status: Complete</h4>
         <ViewCode url='austin-duvall/dmc' />
       </article>
     </div>
