@@ -1,0 +1,95 @@
+{
+  "short_name": "BBA",
+  "name": "Built By Austin",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/4TDZWXN/16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "https://i.ibb.co/c1zjdZm/24x24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "https://i.ibb.co/vQsr0qD/32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://i.ibb.co/r5tx3gL/57x57.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "https://i.ibb.co/YBWN7Cg/60x60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "https://i.ibb.co/vvVc0fz/64x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "https://i.ibb.co/SR0Cyfd/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://i.ibb.co/kxH0Ys0/76x76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "https://i.ibb.co/0C8nLMD/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://i.ibb.co/TtV6fr9/114x114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "https://i.ibb.co/d2T5pgj/120x120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "https://i.ibb.co/5M4tstY/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://i.ibb.co/LZcXMbT/152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://i.ibb.co/wcRJpLH/180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "https://i.ibb.co/2g4gBp5/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.ibb.co/BPm4pN5/194x194.png",
+      "type": "image/png",
+      "sizes": "194x194"
+    },
+    {
+      "src": "https://i.ibb.co/3NVR6kL/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
