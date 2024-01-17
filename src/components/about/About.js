@@ -17,7 +17,7 @@ export default function About() {
       </article>
       <h1>Find me:</h1>
       <article className='social' role='list' aria-label='Social Links'>
-        <Social id='li' img={linkedin} path='www.linkedin.com/in/austin-duvall-a63a771b4' alt='LinkedIn icon' role='listitem' />
+        <Social id='li' img={linkedin} path='https://linkedin.com/in/austin-duvall-a63a771b4' alt='LinkedIn icon' role='listitem' />
         <Social id='gh' img={gh} path='https://github.com/austin-duvall' alt='GitHub icon' role='listitem' />
         <Social id='emailLink' img={email} path='/contact' alt='Email icon' role='listitem' />
         <Social id='resume' img={resume} path='https://github.com/austin-duvall/austin-duvall/blob/main/Resume.pdf' alt='Resume icon' role='listitem' />
