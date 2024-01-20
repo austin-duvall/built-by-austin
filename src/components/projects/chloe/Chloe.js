@@ -14,7 +14,6 @@ export default function Chloe() {
           <li>Modular insertion of content using JS, mimicking components.</li>
           <li>Merch image carousel and streaming link dropdown using jQuery.</li>
         </ul>
-        <h4>Status: In Progress - Responsive Styling</h4>
         <ViewCode url='austin-duvall/chloe' />
       </article>
     </div>

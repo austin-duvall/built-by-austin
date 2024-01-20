@@ -15,7 +15,6 @@ export default function Scarlett() {
           <li>Five-input reservation form with client-side validation.</li>
           <li>Confirmation screen with summary of input.</li>
         </ul>
-        <h4>Status: Complete</h4>
         <ViewCode url='austin-duvall/scarlett' />
       </article>
     </div>
